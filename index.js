@@ -18,8 +18,8 @@ function main() {
     Game.restart()
   }
   
-  if(Game.checkPlayerCollision(Ball)){
-    
+  if(Game.handleCollision(Ball)){
+    spawnBall()
   }
   
 }
