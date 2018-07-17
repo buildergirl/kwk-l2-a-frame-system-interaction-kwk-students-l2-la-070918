@@ -87,6 +87,7 @@ AFRAME.registerSystem('game', {
         this.restart()
       }
       this.updateBall(ball)
+      
     })
   },
 
