@@ -18,6 +18,10 @@ function main() {
     Game.restart()
   }
   
+  if(Game.checkPlayerCollision(Ball)){
+    
+  }
+  
 }
 
 
